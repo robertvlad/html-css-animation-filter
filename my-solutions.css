@@ -137,3 +137,133 @@
 
 /* Exercise 12 */
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: top-12 2s linear;
+}
+
+@keyframes top-12{
+    0%{
+        left: 10%; 
+    }
+
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-12 2s linear;
+}
+
+@keyframes bottom-12{
+    0%{
+        right: 20%; 
+    }
+
+    50%{
+        right: calc(100% - 60px);
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+
+/* Exercise 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: top-13 2s linear;
+}
+
+@keyframes top-13{
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+
+    20%{
+        left: calc(100% - 20px);
+        top: -10px;
+    }
+
+    30%{
+        left: calc(100% - 20px);
+        top: 50%;
+    }
+
+    40%{
+        top: 90%;
+        left: calc(100% - 20px);
+    }
+
+    60%{
+        left: -10px;
+        top: 90%;
+    }
+
+    70%{
+        top: 50%;
+        left: -10px;
+    }
+
+    80%{
+        top: -10px;
+        left: -10px;
+    }
+
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bottom-13 2s linear;
+}
+
+@keyframes bottom-13{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    20%{
+        bottom: -10px;
+        right: 90%;
+    }
+
+    30%{
+        right: 90%;
+        bottom: 50%;
+    }
+
+    40%{
+        right: 90%;
+        bottom: 90%;
+    }
+
+    60%{
+        bottom: 90%;
+        right: -30px;
+    }
+
+    70%{
+        right: -30px;
+        bottom: 50%;
+    }
+
+    80%{
+        right: -30px;
+        bottom: -10px;
+    }
+
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}

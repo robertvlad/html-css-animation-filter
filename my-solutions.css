@@ -98,3 +98,42 @@
 .ex-9-img{
     transition: 3s;
 }
+
+
+/* Exercise 10 */
+
+.ex-10-icon{
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Exercise 11 */
+
+.ex-11-icon:hover{
+    animation: spin3-4 3s linear
+}
+
+@keyframes spin3-4{
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* Exercise 12 */
+
